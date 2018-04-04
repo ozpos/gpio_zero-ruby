@@ -4,7 +4,7 @@ class GpioZero
   class Pins
     class PiGpio
       extend FFI::Library
-      ffi_lib '/usr/lib/libpigpiod_if2.so'
+      ffi_lib '/usr/local/lib/libpigpiod_if2.so'
 
       class ConnectionError < StandardError; end
 
